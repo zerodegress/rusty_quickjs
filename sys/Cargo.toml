@@ -1,5 +1,7 @@
 [package]
 name = "rusty_quickjs_sys"
+description = "wip"
+license = "MIT"
 version = "0.0.1"
 edition = "2021"
 

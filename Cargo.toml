@@ -4,6 +4,8 @@ members = ["sys"]
 
 [package]
 name = "rusty_quickjs"
+description = "wip"
+license = "MIT"
 version = "0.0.1"
 edition = "2021"
 
