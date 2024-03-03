@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = ["sys"]
+
+[package]
+name = "rusty_quickjs"
+version = "0.0.1"
+edition = "2021"
+
+[workspace.dependencies]
+rusty_quickjs_sys = { path = "./sys" }
+
+[dependencies]
+rusty_quickjs_sys.workspace = true

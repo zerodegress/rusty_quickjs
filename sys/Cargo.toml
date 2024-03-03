@@ -1,0 +1,8 @@
+[package]
+name = "rusty_quickjs_sys"
+version = "0.0.1"
+edition = "2021"
+
+[build-dependencies]
+bindgen = "0.69"
+cc = "1"
