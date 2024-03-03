@@ -10,7 +10,7 @@ version = "0.0.1"
 edition = "2021"
 
 [workspace.dependencies]
-rusty_quickjs_sys = { version = "0.0.1", path = "./sys" }
+rusty_quickjs_sys = { path = "./sys", version = "0.0.1" }
 
 [dependencies]
 rusty_quickjs_sys.workspace = true
